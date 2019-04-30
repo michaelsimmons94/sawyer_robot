@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>kinect2_description</name>
+  <version>1.0.0</version>
+  <description>
+    Took most of this stuff from iai
+  </description>
+
+  <maintainer email="michaelsimmons94@gmail.com">
+    me
+  </maintainer>
+  <license>Apache 2.0</license>
+  <url type="website">http://sdk.rethinkrobotics.com/intera/</url>
+  <url type="repository">
+    https://github.com/RethinkRobotics/sawyer_robot
+  </url>
+  <url type="bugtracker">
+    https://github.com/RethinkRobotics/sawyer_robot/issues
+  </url>
+  <author>Rethink Robotics Inc.</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>rviz</run_depend>
+
+</package>
