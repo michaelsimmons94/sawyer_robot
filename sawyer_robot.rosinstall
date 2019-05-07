@@ -10,3 +10,19 @@
     local-name: sawyer_robot
     uri: https://github.com/michaelsimmons94/sawyer_robot.git
     version: master
+- git:
+    local-name: sawyer_robot
+    uri: https://github.com/RethinkRobotics/sawyer_robot.git
+    version: master
+- git:
+    local-name: vision_pipeline
+    uri: https://github.com/michaelsimmons94/vision_pipeline.git
+    version: master
+- git:
+    local-name: iai_kinect2
+    uri: https://github.com/michaelsimmons94/iai_kinect2.git
+    version: master
+- git:
+    local-name: robot_control
+    uri: https://github.com/michaelsimmons94/robot_control.git
+    version: master
