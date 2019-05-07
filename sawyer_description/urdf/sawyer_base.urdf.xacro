@@ -532,6 +532,6 @@
     <axis xyz="0 0 0"/>
   </joint>
   <xacro:kinect2_xacro prefix="head" parent="head">
-    <origin xyz=".04 -.095 .3" rpy="${radians(-90-30)} 0 ${radians(-90)}"/>
+    <origin xyz=".04 -.09 .3" rpy="${radians(-90-30)} 0 ${radians(-90)}"/>
 </xacro:kinect2_xacro>
 </robot>
