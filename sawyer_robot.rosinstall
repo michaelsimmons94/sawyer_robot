@@ -22,3 +22,11 @@
     local-name: robot_control
     uri: https://github.com/michaelsimmons94/robot_control.git
     version: master
+- git:
+    local-name: python_gui
+    uri: https://github.com/jhenstrom/python_gui.git
+    version: master
+- git:
+    local-name: robot_faces
+    uri: https://github.com/22lizabeth/robot_faces.git
+    version: master
