@@ -30,3 +30,7 @@
     local-name: robot_faces
     uri: https://github.com/22lizabeth/robot_faces.git
     version: master
+- git:
+    local-name: RobotDemo
+    uri: https://github.com/jspen14/RobotDemo.git
+    version: master
