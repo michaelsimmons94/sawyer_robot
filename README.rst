@@ -65,7 +65,9 @@ roslaunch robot_faces faces.launch
      rosservice calls
      ----------------
      rosservice call faces/change_emotion [letter of emotion]
-          **Keys: 'n' - Neutral Face 'h' - Happy Face (not currently active) 'a' - Angry Face 's' - Surprised Face 'd' - Sad           Face 'f' - Afraid Face (not currently active) 'g' - Disgusted Face (not currently active) 'c' - Confused Face (not           currently active)
+          **Keys: 'n' - Neutral Face 'h' - Happy Face (not currently active) 'a' - Angry Face 's' - Surprised Face 'd' - Sad
+          Face 'f' - Afraid Face (not currently active) 'g' - Disgusted Face (not currently active) 'c' - Confused Face (not
+          currently active)
      
      
      
