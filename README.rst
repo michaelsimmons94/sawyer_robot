@@ -37,13 +37,29 @@ Sawyer Repository Overview
 
 Other Sawyer Repositories
 -------------------------
-+------------------+-----------------------------------------------------+
-| intera_sdk       | https://github.com/RethinkRobotics/intera_sdk       |
-+------------------+-----------------------------------------------------+
-| intera_commom    | https://github.com/RethinkRobotics/intera_common    |
-+------------------+-----------------------------------------------------+
-| sawyer_moveit    | https://github.com/RethinkRobotics/sawyer_moveit    |
-+------------------+-----------------------------------------------------+
++------------------+--------------------------------------------------------+
+| intera_sdk       | https://github.com/RethinkRobotics/intera_sdk          |
++------------------+--------------------------------------------------------+
+| intera_commom    | https://github.com/RethinkRobotics/intera_common       |
++------------------+--------------------------------------------------------+
+| sawyer_moveit    | https://github.com/RethinkRobotics/sawyer_moveit       |
++------------------+--------------------------------------------------------+
+
+Other BYU Repositories
+----------------------
++------------------+--------------------------------------------------------+
+| vision_pipeline  | https://github.com/michaelsimmons94/vision_pipeline.git|
++------------------+--------------------------------------------------------+
+| iai_kinect2      | https://github.com/michaelsimmons94/iai_kinect2.git    |
++------------------+--------------------------------------------------------+
+| robot_control    | https://github.com/michaelsimmons94/robot_control.git  |
++------------------+--------------------------------------------------------+
+| python_gui       | https://github.com/jhenstrom/python_gui.git            |
++------------------+--------------------------------------------------------+
+| robot_faces      | https://github.com/22lizabeth/robot_faces.git          |
++------------------+--------------------------------------------------------+
+| RobotDemo        | https://github.com/jspen14/RobotDemo.git               |
++------------------+--------------------------------------------------------+
 
 RosLaunch and Rosservice calls indecending order (higher ones call lower ones)
 ------------------------------
