@@ -45,6 +45,31 @@ Other Sawyer Repositories
 | sawyer_moveit    | https://github.com/RethinkRobotics/sawyer_moveit    |
 +------------------+-----------------------------------------------------+
 
+RosLaunch and Rosservice calls indecending order (higher ones call lower ones)
+------------------------------
+RUN GUI FOR ROBOT
+roslaunch python_gui gui.launch
+RUN SERVERS
+roslaunch robot_control servers.launch
+     rosservice calls
+     ----------------
+     rosservice call head/pan_to_angle -- [angle in radians]
+     rosservice call head/face_forward
+     rosservice call gripper/actuate [open/close]
+     rosservice call arm/move_to_rest (head as well)
+     rosservice call arm/move_arm_to_rest (just arm)
+     rosservice call arm/move_away
+     rosservice call arm/return_to_position
+RUN FACES
+roslaunch robot_faces faces.launch
+     rosservice calls
+     ----------------
+     rosservice call faces/change_emotion [letter of emotion]
+          **Keys: 'n' - Neutral Face 'h' - Happy Face (not currently active) 'a' - Angry Face 's' - Surprised Face 'd' - Sad           Face 'f' - Afraid Face (not currently active) 'g' - Disgusted Face (not currently active) 'c' - Confused Face (not           currently active)
+     
+     
+     
+
 Latest Release Information
 --------------------------
 
